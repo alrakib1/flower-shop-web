@@ -1,0 +1,36 @@
+/* common shared styles */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.btn-primary {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 43px;
+  border-radius: 8px;
+  background-color: #e55473;
+  border: 0;
+}
+/* header related styles */
+.header {
+  background-color: rgba(229, 84, 115, 0.1);
+}
+.banner {
+  padding: 50px 240px 0px 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-title {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+  margin-bottom: 32px;
+}
+.banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 0px;
+}
