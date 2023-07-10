@@ -56,6 +56,20 @@ body {
   font-weight: 800;
   margin-bottom: 0;
 }
+.insta {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.insta-description{  
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 24px;
+}
 .section-description {
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
@@ -101,6 +115,7 @@ body {
   background: rgba(229, 84, 115, 0.05);
   margin-top: 100px;
   padding: 100px 429px 100px 385px;
+  margin-bottom: 128px;
 }
 .discount-title {
   color: #272727;
@@ -115,5 +130,79 @@ body {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
+  margin-bottom: 48px;
 }
-.discount-section button{
+.pictures {
+  text-align: center;
+  margin-bottom: 128px;
+}
+.photos{
+    margin-right: 24px;
+}
+.subscribe-section {
+  background-image: url("../images/Rectangle\ 9.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 0px;
+  padding: 0px 121px 121px 121px;
+  margin-bottom: 128px;
+}
+.deals-title{
+  padding-top: 122px;
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+.deals-description {
+  padding-top: 0px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 24px;
+}
+.subscribe-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mail {
+  width: 700px;
+  height: 40px;
+  border: 0;
+  padding: 5px 100px 5px 5px;
+}
+.btn-primary,
+last {
+  margin-top: 0px;
+  margin-left: 15px;
+  width: 150px;
+  height: 64px;
+  padding: 18px;
+}
+.flower-shop {
+  background-color: #111010;
+  text-align: center;
+  padding-bottom: 128px;
+}
+.section-title,
+footer {
+  margin-top: 0px;
+  padding-top: 100px;
+  color: #ffffff;
+}
+.section-description,
+footer {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
