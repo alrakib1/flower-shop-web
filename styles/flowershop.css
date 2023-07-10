@@ -10,6 +10,7 @@ body {
   border-radius: 8px;
   background-color: #e55473;
   border: 0;
+  margin-top: 32px;
 }
 /* header related styles */
 .header {
@@ -34,3 +35,60 @@ body {
   font-weight: 400;
   margin-top: 0px;
 }
+
+/* main section styles */
+
+.featured-flowers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24;
+  padding: 48px 240px 0px 240px;
+}
+.section-content {
+  text-align: center;
+  margin-top: 178px;
+}
+.section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+.section-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 24px;
+}
+.flowers-1 {
+  border-radius: 300px 300px 0px 0px;
+  background-color: rgba(167, 33, 98, 0.15);
+  padding: 110px 78px 0px 76px;
+}
+.flowers-2 {
+  border-radius: 300px 300px 0px 0px;
+  background-color: rgba(5, 151, 160, 0.15);
+  padding: 117px 47px 51px 47px;
+}
+.flowers-3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  padding: 67px 75px 0px 75px;
+}
+.flowers-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  padding-top: 32px;
+  padding-left: 381px;
+  padding-right: 381px;
+}
+/* about section styles */
