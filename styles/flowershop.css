@@ -91,4 +91,29 @@ body {
   padding-left: 381px;
   padding-right: 381px;
 }
-/* about section styles */
+.discount-section {
+  display: flex;
+  justify-content: space-around;
+  gap: 186px;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  margin-top: 100px;
+  padding: 100px 429px 100px 385px;
+}
+.discount-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.s-off {
+  color: #e55473;
+}
+.discount-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.discount-section button{
