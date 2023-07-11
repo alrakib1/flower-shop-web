@@ -184,13 +184,21 @@ body {
 .flower-shop {
   background-color: #111010;
   text-align: center;
-  padding-bottom: 128px;
+  padding-bottom: 120px;
 }
 fieldset{
-  color: #fff;
-  background-color: #e55473;
-  margin-bottom: 50px;
+  background-color: rgba(229, 84, 115, 0.1);
+  margin-bottom: 70px;
   text-align: center;
+  border: 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+input[type="radio"]{
+  margin-left: 40px;
+}
+input[type="button"]{
+  margin-left: 40px;
 }
 
 /* footer section styles */
