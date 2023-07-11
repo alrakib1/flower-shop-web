@@ -42,7 +42,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 24;
+  gap: 24px;
   padding: 48px 240px 0px 240px;
 }
 .section-content {
@@ -147,7 +147,7 @@ body {
   padding: 0px 121px 121px 121px;
   margin-bottom: 128px;
 }
-.deals-title{
+.deals-title, .legend-title{
   padding-top: 122px;
   color: #272727;
   text-align: center;
@@ -174,8 +174,7 @@ body {
   border: 0;
   padding: 5px 100px 5px 5px;
 }
-.btn-primary,
-last {
+.last {
   margin-top: 0px;
   margin-left: 15px;
   width: 150px;
@@ -187,14 +186,21 @@ last {
   text-align: center;
   padding-bottom: 128px;
 }
-.section-title,
-footer {
+fieldset{
+  color: #fff;
+  background-color: #e55473;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* footer section styles */
+
+.footer {
   margin-top: 0px;
   padding-top: 100px;
   color: #ffffff;
 }
-.section-description,
-footer {
+.footer-description {
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
   font-size: 18px;
